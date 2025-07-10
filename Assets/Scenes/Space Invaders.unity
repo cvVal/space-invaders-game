@@ -336,6 +336,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -397,6 +401,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -569,6 +577,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -691,6 +703,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -762,6 +778,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -824,6 +844,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -884,6 +908,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -951,6 +979,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -1016,9 +1048,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: enemyLaserPrefab
+      value: 
+      objectReference: {fileID: 1413916827075737032, guid: b3688eb6f57174b9f8651f0d553f4648, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1219,6 +1259,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -1285,6 +1329,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -1350,6 +1398,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -1547,18 +1599,95 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641596634}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.6, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -21.2, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 14.452765, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 660754921}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &658700807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9207415064997184515, guid: 361d7f499012d4daab16a1bf9ac57caf, type: 3}
   m_PrefabInstance: {fileID: 1813299270}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &660754920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660754921}
+  m_Layer: 0
+  m_Name: Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660754921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660754920}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.6, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 641596637}
+  - {fileID: 1379212053}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &741664232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741664234}
+  - component: {fileID: 741664233}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &741664233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741664232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a38217e06d54f66aff6d6bfd4d6f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &741664234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741664232}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.7653, y: -0.11115, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &839676293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1611,6 +1740,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -1678,6 +1811,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -1739,6 +1876,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -1805,6 +1946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 1482892539517263507, guid: 74ad4ef9ee1674d45bf269abee61ab3a, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -1913,6 +2058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -2088,12 +2237,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379212050}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.6, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 14.452765, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 660754921}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1471785736 stripped
 Transform:
@@ -2152,6 +2301,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -2224,6 +2377,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -2290,6 +2447,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -2355,6 +2516,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -2541,6 +2706,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -2607,6 +2776,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -2672,6 +2845,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -2744,6 +2921,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -2809,6 +2990,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -2876,6 +3061,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
       objectReference: {fileID: 2083101721}
@@ -2941,6 +3130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 741664233}
     - target: {fileID: 4149057535630652284, guid: 3c999605408d34fc5858644fc8c8b8c2, type: 3}
       propertyPath: enemiesManager
       value: 
@@ -3214,5 +3407,5 @@ SceneRoots:
   - {fileID: 85328188}
   - {fileID: 998069466}
   - {fileID: 2083101720}
-  - {fileID: 641596637}
-  - {fileID: 1379212053}
+  - {fileID: 660754921}
+  - {fileID: 741664234}

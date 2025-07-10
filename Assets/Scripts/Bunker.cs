@@ -22,7 +22,7 @@ public class Bunker : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the object that entered the trigger is a player laser
-        if (collision.CompareTag("PlayerLaser"))
+        if (collision.CompareTag("PlayerLaser") || collision.CompareTag("EnemyLaser"))
         {
             Destroy(collision.gameObject); // Destroy the laser that hit the bunker
             health--; // Decrease the health of the bunker

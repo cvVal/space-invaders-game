@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -41,5 +41,16 @@ public class PlayerController : MonoBehaviour
     private void Shoot()
     {
         Instantiate(laserPrefab, transform.position, Quaternion.identity);
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Check if the object that entered the trigger is an enemy laser
+        if (collision.CompareTag("EnemyLaser"))
+        {
+            Destroy(collision.gameObject); // Destroy the enemy laser that hit the player
+            Destroy(gameObject); // Destroy the player itself
+            Debug.Log("Player destroyed by enemy laser!");
+        }
     }
 }

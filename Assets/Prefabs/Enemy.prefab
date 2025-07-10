@@ -101,6 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b8160b1ec9345278051665cae5a56e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemiesManager: {fileID: 0}
+  gameManager: {fileID: 0}
+  enemyLaserPrefab: {fileID: 1413916827075737032, guid: b3688eb6f57174b9f8651f0d553f4648, type: 3}
 --- !u!61 &8039731332442026618
 BoxCollider2D:
   m_ObjectHideFlags: 0

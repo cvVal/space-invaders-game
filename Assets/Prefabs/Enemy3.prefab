@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: enemyLaserPrefab
+      value: 
+      objectReference: {fileID: 1468119476974959602, guid: 79154242c48754f36831731bd1ed031b, type: 3}
     - target: {fileID: 6998818822595090556, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: m_Sprite
       value: 
