@@ -4,9 +4,12 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField] float speed = 5f;
+    [SerializeField] GameObject laserPrefab;
 
     const float MIN_X = -10f;
     const float MAX_X = 10f;
+
+    float laserCooldown = 0f; // Cooldown time in seconds
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,10 +20,26 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Move the player left or right based on input
+        // Get the horizontal input axis (left/right arrow keys or A/D keys)
         float direction = Input.GetAxis("Horizontal");
         transform.position += direction * speed * Time.deltaTime * Vector3.right;
+
         // Clamp the player's position to prevent it from going out of bounds
         float clampedX = Mathf.Clamp(transform.position.x, MIN_X, MAX_X);
         transform.position = new Vector3(clampedX, transform.position.y, 0f);
+
+        // Check if the player pressed the fire button
+        laserCooldown += Time.deltaTime; // Increment cooldown timer
+        if (Input.GetButtonDown("Fire1") && laserCooldown > 0.3f)
+        {
+            Shoot();
+            laserCooldown = 0f; // Reset cooldown timer after shooting
+        }
+    }
+
+    private void Shoot()
+    {
+        Instantiate(laserPrefab, transform.position, Quaternion.identity);
     }
 }
