@@ -11,10 +11,12 @@ public class PlayerController : MonoBehaviour
 
     float laserCooldown = 0f; // Cooldown time in seconds
 
+    GameManager gameManager; // Reference to the GameManager script
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        gameManager = FindFirstObjectByType<GameManager>(); // Find the GameManager in the scene
     }
 
     // Update is called once per frame
@@ -48,6 +50,7 @@ public class PlayerController : MonoBehaviour
         // Check if the object that entered the trigger is an enemy laser
         if (collision.CompareTag("EnemyLaser"))
         {
+            gameManager.LoseLife(); // Call the LoseLife method from GameManager
             Destroy(collision.gameObject); // Destroy the enemy laser that hit the player
             Destroy(gameObject); // Destroy the player itself
             Debug.Log("Player destroyed by enemy laser!");

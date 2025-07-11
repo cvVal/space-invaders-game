@@ -53,6 +53,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
+      propertyPath: points
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330065204092099965, guid: 5b2f9e65acda64b9da3e9b565c82d1e7, type: 3}
       propertyPath: enemyLaserPrefab
       value: 
       objectReference: {fileID: 5418781018773225292, guid: 95f8d09f8518f4368bab1df7f05c38e7, type: 3}

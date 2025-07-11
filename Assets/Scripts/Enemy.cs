@@ -5,6 +5,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] EnemiesManager enemiesManager; // Reference to the EnemiesManager script
     [SerializeField] GameManager gameManager; // Reference to the GameManager script
     [SerializeField] GameObject enemyLaserPrefab; // Prefab for the enemy laser
+    [SerializeField] int points = 100; // Points awarded for destroying this enemy
+    
     
     [Header("Fire Rate Settings")]
     [SerializeField] float baseFireRate = 1.5f; // Base time between shots
@@ -51,7 +53,10 @@ public class Enemy : MonoBehaviour
     {
         if (Random.value < (2f / transform.parent.childCount)) // Fire a laser based on the number of enemies left
         {
-            Instantiate(enemyLaserPrefab, transform.position, Quaternion.identity);
+            if (gameManager.isPlayerAlive) // Check if the player is still alive
+            {
+                Instantiate(enemyLaserPrefab, transform.position, Quaternion.identity);
+            }
         }
     }
 
@@ -60,6 +65,8 @@ public class Enemy : MonoBehaviour
         // Check if the object that entered the trigger is a player laser
         if (collision.CompareTag("PlayerLaser"))
         {
+            gameManager.AddScore(points); // Add points to the score in GameManager
+
             if (transform.parent.childCount <= 1)
             {
                 gameManager.WinGame(); // Call the WinGame method from GameManager if this is the last enemy

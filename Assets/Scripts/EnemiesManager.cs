@@ -4,6 +4,7 @@ public class EnemiesManager : MonoBehaviour
 {
 
     [SerializeField] float speed = 1f;
+    [SerializeField] GameManager gameManager; // Reference to the GameManager script
 
     Vector3 direction = Vector3.right; // Default direction to the right
     float changeDirectionCooldown = 0f; // Time in seconds before changing direction
@@ -18,7 +19,10 @@ public class EnemiesManager : MonoBehaviour
     void Update()
     {
         changeDirectionCooldown += Time.deltaTime;
-        transform.position += speed * Time.deltaTime * direction;
+        if (gameManager.isPlayerAlive)
+        {
+            transform.position += speed * Time.deltaTime * direction;
+        }
     }
 
     public void ChangeDirection()
