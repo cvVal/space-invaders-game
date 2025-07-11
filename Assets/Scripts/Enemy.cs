@@ -4,6 +4,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] EnemiesManager enemiesManager; // Reference to the EnemiesManager script
     [SerializeField] GameManager gameManager; // Reference to the GameManager script
+    [SerializeField] SoundManager soundManager; // Reference to the SoundManager script
     [SerializeField] GameObject enemyLaserPrefab; // Prefab for the enemy laser
     [SerializeField] int points = 100; // Points awarded for destroying this enemy
     
@@ -65,6 +66,7 @@ public class Enemy : MonoBehaviour
         // Check if the object that entered the trigger is a player laser
         if (collision.CompareTag("PlayerLaser"))
         {
+            soundManager.PlayDeathSound(); // Play enemy death sound
             gameManager.AddScore(points); // Add points to the score in GameManager
 
             if (transform.parent.childCount <= 1)

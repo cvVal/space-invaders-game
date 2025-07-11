@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject winPanel; // UI panel to show when the player wins
     [SerializeField] GameObject gameOverPanel; // UI panel to show when the game is over
 
+    [SerializeField] SoundManager soundManager; // Reference to the SoundManager script
+
     public bool isPlayerAlive = true; // Track if the player is alive
     int playerScore = 0; // Player's score
 
@@ -45,6 +47,15 @@ public class GameManager : MonoBehaviour
 
     public void LoseLife()
     {
+        // Play player death sound only if soundManager is assigned
+        if (soundManager != null)
+        {
+            soundManager.PlayDeathSound();
+        }
+        else
+        {
+            Debug.LogWarning("SoundManager is not assigned to PlayerController!");
+        }
         playerLives--;
         Debug.Log("Player lost a life. Lives remaining: " + playerLives);
         UpdateUI(); // Update the UI to reflect the new number of lives

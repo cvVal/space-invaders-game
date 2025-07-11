@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8039731332442026618}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +104,10 @@ MonoBehaviour:
   enemiesManager: {fileID: 0}
   gameManager: {fileID: 0}
   enemyLaserPrefab: {fileID: 1413916827075737032, guid: b3688eb6f57174b9f8651f0d553f4648, type: 3}
+  points: 100
+  baseFireRate: 1.5
+  fireRateVariation: 0.5
+  aggressionMultiplier: 1.2
 --- !u!61 &8039731332442026618
 BoxCollider2D:
   m_ObjectHideFlags: 0
