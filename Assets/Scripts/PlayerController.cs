@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!gameManager.isPlayerAlive) return; // If the player is not alive, do not process input
+
         // Move the player left or right based on input
         // Get the horizontal input axis (left/right arrow keys or A/D keys)
         float direction = Input.GetAxis("Horizontal");
@@ -48,7 +50,7 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the object that entered the trigger is an enemy laser
-        if (collision.CompareTag("EnemyLaser"))
+        if (collision.gameObject.CompareTag("EnemyLaser") || collision.gameObject.CompareTag("Enemy"))
         {
             gameManager.LoseLife(); // Call the LoseLife method from GameManager
             Destroy(collision.gameObject); // Destroy the enemy laser that hit the player

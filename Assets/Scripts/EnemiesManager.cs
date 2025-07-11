@@ -31,6 +31,7 @@ public class EnemiesManager : MonoBehaviour
         {
             direction *= -1f; // Reverse the direction
             changeDirectionCooldown = 0f; // Reset the cooldown
+            transform.position += Vector3.down; // Move all enemies down slightly when changing direction
         }
     }
 }
