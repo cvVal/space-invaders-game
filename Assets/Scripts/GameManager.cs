@@ -47,14 +47,14 @@ public class GameManager : MonoBehaviour
 
     public void LoseLife()
     {
-        // Play player death sound only if soundManager is assigned
+        // Play player hit sound - handled by GameManager since player gets destroyed
         if (soundManager != null)
         {
-            soundManager.PlayDeathSound();
+            soundManager.PlayPlayerHitSound();
         }
         else
         {
-            Debug.LogWarning("SoundManager is not assigned to PlayerController!");
+            Debug.LogWarning("SoundManager is not assigned to GameManager!");
         }
         playerLives--;
         Debug.Log("Player lost a life. Lives remaining: " + playerLives);

@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
             if (gameManager.isPlayerAlive) // Check if the player is still alive
             {
                 Instantiate(enemyLaserPrefab, transform.position, Quaternion.identity);
+                soundManager.PlayEnemyLaserSound(); // Play enemy laser sound
             }
         }
     }
@@ -66,7 +67,7 @@ public class Enemy : MonoBehaviour
         // Check if the object that entered the trigger is a player laser
         if (collision.CompareTag("PlayerLaser"))
         {
-            soundManager.PlayDeathSound(); // Play enemy death sound
+            soundManager.PlayEnemyDeathSound(); // Play enemy death sound
             gameManager.AddScore(points); // Add points to the score in GameManager
 
             if (transform.parent.childCount <= 1)

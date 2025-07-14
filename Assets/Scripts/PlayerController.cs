@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float speed = 5f;
     [SerializeField] GameObject laserPrefab;
+    [SerializeField] SoundManager soundManager; // Reference to the SoundManager script
 
     const float MIN_X = -10f;
     const float MAX_X = 10f;
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         gameManager = FindFirstObjectByType<GameManager>(); // Find the GameManager in the scene
+        soundManager = FindFirstObjectByType<SoundManager>(); // Find the SoundManager in the scene
     }
 
     // Update is called once per frame
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour
     private void Shoot()
     {
         Instantiate(laserPrefab, transform.position, Quaternion.identity);
+        soundManager.PlayPlayerLaserSound(); // Play player laser sound
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
